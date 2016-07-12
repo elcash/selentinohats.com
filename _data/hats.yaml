@@ -1,0 +1,70 @@
+ - name: Alpha Beaver Godfather
+   price: 345
+   description: The Alpha Beaver Godfather is an awesome hat.  You'll love its top-notch quality and superb design.  It is very hairy, just like a good beaver hat should be!
+   #colors: ['Black', 'Brown', 'Light Beige', 'Rust', 'Burgundy']
+   link: https://www.levinehat.com/products/selentino-alpha-beaver-godfather-100309
+   main_image_name: alpha_beaver_rust.jpg
+   status: Available
+   tags: [homburg, godfather, beaver]
+   colors:
+    - name: Black
+      src: alpha_beaver_rust.jpg
+    - name: Brown
+      src: alpha_beaver_rust.jpg
+
+ - name: Pine Beaver Fedora
+   price: 345
+   description: The Selentino Pine Alpha Beaver Fedora is a long hair beaver hat in a standard fedora shape with classic snap brim.
+   link: https://www.levinehat.com/products/selentino-pine-beaver-fedora-103411
+   main_image_name: pine_beaver_black.jpg
+   status: Available
+   tags: [fedora, beaver]
+   colors:
+    - name: Black
+      src: pine_beaver_black.jpg
+    - name: Brown
+      src: pine_beaver_brown.jpg
+    - name: White
+      src: pine_beaver_white.jpg
+
+ - name: Selentino Sterling Fur Felt Fedora Hat
+   price: 175
+   description: The Selentino Sterling Fur Felt Hat is a standard Fedora shape hat in rabbit fur felt.  It features 2 1/4" snap brim, and can be worn snapped down or up all around.  The smoothness of rabbit fur cannot be underestimated, and this hat will give many years of quality wear.
+   link: https://www.levinehat.com/products/selentino-sterling-101399
+   main_image_name: sterling_.jpg
+   status: Available
+   tags: [smooth, fedora]
+   colors:
+     - name: Black
+       src: sterling_black.jpg
+     - name: Steel Grey
+       src: sterling_steelgrey.jpg
+     - name: Dark Camel
+       src: sterling_dkcamel.jpg
+     - name: Brown
+       src: sterling_brown.jpg
+     - name: Light Blue
+       src: sterling_ltblue.jpg
+     - name: White
+       src: sterling_white.jpg
+
+ - name: Selentino Galaxy Velour Fedora
+   price: 255
+   description: The Selentino Galaxy Velour Fedora is a velvety smooth shorn long hair velour fedora with a shine and luxury unline any other.  Selentino's velours are very high quality, a mixture of beaver and rabbit furs.  This is our bestselling Selentino hat; it is available in several colors and is finished with a genuine leather sweat band and satin lining.
+   link: https://www.levinehat.com/products/selentino-galaxy-101399
+   main_image_name: sterling_dkcamel.jpg
+   status: Available
+   tags: [velour, fedora]
+   colors:
+     - name: Black
+       src: sterling_black.jpg
+     - name: Steel Grey
+       src: sterling_steelgrey.jpg
+     - name: Dark Camel
+       src: sterling_dkcamel.jpg
+     - name: Brown
+       src: sterling_brown.jpg
+     - name: Light Blue
+       src: sterling_ltblue.jpg
+     - name: White
+       src: sterling_white.jpg

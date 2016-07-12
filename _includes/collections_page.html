@@ -1,0 +1,56 @@
+<!-- Product-Details-page -->
+<div class="details-page">
+    <div class="content details-page">
+        <!---start-product-details--->
+        <div class="product-details">
+            <div class="container">
+                <ul class="product-head">
+                    <li><a href="collections.html">Collections</a> <span>::</span></li>
+                    <li class="active-page">{{ page.title }}</li>
+                    <div class="clearfix"> </div>
+                </ul>
+                <!--create empty array-->
+                {% assign hat_hash = "" | split: "/" %}
+
+                {% for hat in site.data.hats %}
+                {% if hat.tags contains page.tag_to_include %}
+                <!-- add hat to the array you initialized -->
+                {% assign hat_hash = hat_hash | push: hat %}
+                {% endif %}
+                {% endfor %}
+
+                {% for hat in hat_hash %}
+                <div class="details-left">
+                    <div class="details-left-slider">
+                        <a title="Buy {{ hat.name }} at LevineHat.com" href="{{ hat.link }}"><img class="etalage_thumb_image" src="images/products/{{ hat.main_image_name }}" style="display: inline; width: 350px; height: auto; opacity: 1;"></a>
+                    </div>
+                    <div class="details-left-info">
+                        <div class="details-right-head">
+                            <h1><a title="Buy {{ hat.name }} at LevineHat.com" href="{{ hat.link }}">{{ hat.name }}</a></h1>
+                            <p class="product-detail-info">{{ hat.description }}</p>
+                            <div class="product-more-details">
+                                <ul class="price-avl">
+                                    <li class="price"><span>${{ hat.price }}</span></li>
+                                    <li class="stock"><i>{{ hat.status }}</i></li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                                <ul class="product-colors">
+                                    <h3>Available Colors ::</h3>
+                                    {% for color in hat.colors %}
+                                        <a title="{{ color.name }}" href="{{ hat.link }}"><img style="height:32px; width:44px;" src="images/products/{{ color.src }}"/></a>
+                                    {% endfor %}
+
+                                    <div class="clearfix"> </div>
+                                </ul>
+                                <a class="buy-at-levinehat" href="{{ hat.link }}">Buy {{ hat.name }} at LevineHat.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <!---//End-product-details--->
+        </div>
+    </div>
+</div>
+<!-- /Product-Details-page -->

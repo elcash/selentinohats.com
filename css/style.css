@@ -23,6 +23,12 @@ body a{
 .container{
 	
 }
+
+* {list-style:none;}
+
+.details-page ul.product-colors {
+    margin-bottom:1em;
+}
 .top-header{
 	background: url(../images/top-header-bg.png) no-repeat 0px 0px;
 	background-size: cover;
@@ -36,10 +42,12 @@ body a{
 	display:inline-block;
 }
 .rigister-info ul li a{
-	background:#f1e1ce;
-	color:#4f4844;
-	text-transform:uppercase;
-	padding: 0.3em 1.2em;
+	/*background:#f1e1ce;*/
+    padding-left:.5em;
+	color:#f1e1ce;
+  font-weight:bold;
+	/*text-transform:uppercase;*/
+/*	padding: 0.3em 1.2em;*/
 	text-decoration:none;
 	font-size:0.875em;
 }
@@ -890,7 +898,7 @@ a.b-home:hover{
 }
 /*-----start-details-page----*/
 .product-details{
-	min-height: 800px;
+	min-height: 550px;
 }
 .details-page{
 	padding:0;
@@ -1035,9 +1043,9 @@ a.b-home:hover{
 }
 .price span{
 	display: block;
-	text-decoration: line-through;
-	color: red;
-	font-size: 1.2em;
+	text-decoration: none;
+	color: black;
+	font-size: 1.6em;
 	padding: 0.5em 0;
 }
 .price label{
@@ -1084,6 +1092,11 @@ a.b-home:hover{
 .color8 span{
 	background:#F6EF04;
 }
+
+ul.product-colors h3 {
+    display:inline;
+}
+
 .product-colors h3,.prosuct-qty span{
 	color: #adadad;
 	font-weight: 700;
@@ -1169,7 +1182,9 @@ a.b-home:hover{
 }
 .details-left{
 	float:left;
-	width:80%;
+	width:95%;
+/*  padding-bottom:1em;*/
+  margin-bottom:2em;
 }
 .details-right{
 	float: right;
@@ -1199,6 +1214,17 @@ a.learn-more h3{
 ul.prosuct-qty{
 	margin:1em 0;
 }
+
+a.buy-at-levinehat {
+    padding: 0.5em 1em;
+    font-size: 0.875em;
+    background: #8b4613;
+    color:#ffffff;
+    margin-top:2em;
+}
+
+
+
 /*-----//End-details-page----*/
 /*-- responsive-design --*/
 @media(max-width:1024px){
