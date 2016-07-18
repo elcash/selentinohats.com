@@ -13,10 +13,12 @@
                 {% assign hat_hash = "" | split: "/" %}
 
                 {% for hat in site.data.hats %}
-                {% if hat.tags contains page.tag_to_include %}
+                {% for tag in page.tag_to_include %}
+                {% if hat.tags contains tag %}
                 <!-- add hat to the array you initialized -->
                 {% assign hat_hash = hat_hash | push: hat %}
                 {% endif %}
+                {% endfor %}
                 {% endfor %}
 
                 {% for hat in hat_hash %}
