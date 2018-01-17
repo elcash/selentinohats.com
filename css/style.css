@@ -1936,4 +1936,14 @@ a.buy-at-levinehat {
 		font-size: 0.875em;
 		padding:0.3em 0;
 	}
+
+  .collection-product-image {
+      width: 165px;
+      height: 135px;
+  }
+
+  div.product-pic {
+      max-height:140px;
+  }
+
 }
