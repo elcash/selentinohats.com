@@ -1,5 +1,5 @@
  - name: Alpha Beaver Godfather
-   price: 345
+   price: 425
    description: The Alpha Beaver Godfather is an awesome hat.  You'll love its top-notch quality and superb design.  It is very hairy, just like a good beaver hat should be!
    #colors: ['Black', 'Brown', 'Light Beige', 'Rust', 'Burgundy']
    link: https://www.levinehat.com/products/selentino-alpha-beaver-godfather-100309
@@ -13,7 +13,7 @@
       src: alpha_beaver_rust.jpg
 
  - name: Pine Beaver Fedora
-   price: 345
+   price: 425
    description: The Selentino Pine Alpha Beaver Fedora is a long hair beaver hat in a standard fedora shape with classic snap brim.
    link: https://www.levinehat.com/products/selentino-pine-beaver-fedora-103411
    main_image_name: pine_beaver_black.jpg
@@ -28,7 +28,7 @@
       src: pine_beaver_white.jpg
 
  - name: Selentino Sterling Fur Felt Fedora Hat
-   price: 175
+   price: 225
    description: The Selentino Sterling Fur Felt Hat is a standard Fedora shape hat in rabbit fur felt.  It features 2 1/4" snap brim, and can be worn snapped down or up all around.  The smoothness of rabbit fur cannot be underestimated, and this hat will give many years of quality wear.
    link: https://www.levinehat.com/products/selentino-sterling-101399
    main_image_name: sterling_steelgrey.jpg
@@ -49,7 +49,7 @@
        src: sterling_white.jpg
 
  - name: Selentino Galaxy Velour Fedora
-   price: 255
+   price: 285
    description: The Selentino Galaxy Velour Fedora is a velvety smooth shorn long hair velour fedora with a shine and luxury unline any other.  Selentino's velours are very high quality, a mixture of beaver and rabbit furs.  This is our bestselling Selentino hat; it is available in several colors and is finished with a genuine leather sweat band and satin lining.
    link: https://www.levinehat.com/products/selentino-galaxy-velour-fedora-101298
    main_image_name: galaxy_red.jpg
@@ -76,7 +76,7 @@
        src: galaxy_red.jpg
 
  - name: Gino 7 Suede Felt Wide Brim Fedora
-   price: 225
+   price: 275
    description: The Selentino Gino 7 is a 2 3/4" brim suede felt fedora hat with self band and tons of style.
    link: https://www.levinehat.com/products/selentino-gino-7-wide-100310
    main_image_name: gino7_ltgrey.jpg
@@ -87,7 +87,7 @@
        src: gino7_ltgrey.jpg
 
  - name: Action Top Hat
-   price: 265
+   price: 285
    description: The Selentino Action Top Hat is a 5 1/2" top hat in smooth rabbit fur felt.  It is an ideal choice for a long-lasting, high quality topper with shine and quality all around.
    link: https://www.levinehat.com/products/selentino-action-top-hat-100388
    main_image_name: action_black.jpg
@@ -102,7 +102,7 @@
        src: action_white.jpg
 
  - name: Derby
-   price: 245
+   price: 265
    description: The Selentino Derby is a high quality, rabbit fur felt derby with smooth, luxurious finish and a soft sheen and hand.
    link: http://levinehat.com/products/selentino-derby-100078
    main_image_name: derby_black.jpg
